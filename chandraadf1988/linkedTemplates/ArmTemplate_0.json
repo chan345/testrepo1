@@ -19,7 +19,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Wait",
+						"name": "Wait_secondpublish",
 						"type": "Wait",
 						"dependsOn": [],
 						"userProperties": [],
