@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "chandraadf1988"
 		},
+		"trigger1_properties_pipeline1_parameters_p": {
+			"value": "testdynamic"
+		},
 		"containerUri": {
 			"value": ""
 		},

@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "chandraadf1988"
 		},
+		"trigger1_properties_pipeline1_parameters_p": {
+			"type": "string",
+			"defaultValue": "testdynamic"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +37,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"trigger1_properties_pipeline1_parameters_p": {
+						"value": "[parameters('trigger1_properties_pipeline1_parameters_p')]"
 					}
 				}
 			},
